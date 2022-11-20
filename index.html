@@ -23,18 +23,21 @@
                 <a href="./index.html" class="logo" lang="en">Web<span class="logo-black">Studio</span>
                 </a>
                 <ul class="site-nav list">
-                    <li class="item"><a href="" class="link current">Студія</a></li>
+                    <li class="item">
+                        <a href="./index.html" class="link current">Студія</a>
+                    </li>
                     <li class="item">
                         <a href="./portfolio.html" class="link">Портфоліо</a>
                     </li>
-                    <li class="item"><a href="" class="link">Контакти</a></li>
+                    <li class="item"><a href="" class="link">Контакти</a>
+                    </li>
                 </ul>
             </nav>
 
 <!--auth nav-->
             <ul class="auth-nav list">
                 <li class="item">
-                    <a href="mailto:info@devstudio.com" class="link header-contacts">
+                    <a href="mailto:info@devstudio.com" class="link-item header-contacts">
                         <svg class="icon-contacts" width="16" height="12">
                             <use href="./images/icons/icons.svg#icon-envelope-hover"></use>
                         </svg>
@@ -42,7 +45,7 @@
                     </a>
                 </li>
                 <li class="item">
-                    <a href="tel:+380961111111" class="link header-contacts">
+                    <a href="tel:+380961111111" class="link-item header-contacts">
                         <svg class="icon-contacts" width="10" height="16">
                             <use href="./images/icons/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11
@@ -60,7 +63,7 @@
                 <br />
                 вашого бізнесу
             </h1>
-            <button type="button" class="hero-button">Замовити послугу</button>
+            <button  class="hero-button"data-modal-open type="button">Замовити послугу</button>
         </section>
 
 <!--feature-->
@@ -126,12 +129,21 @@
                 <ul class="list list-block">
                     <li class="block-img">
                         <img src="./images/index/works/work1.jpg" alt="Візуальне зображення роботи" width="370" height="297" />
+                        <div class="overlay">
+                            <p class="overlay-text">Десктопні додатки</p>
+                        </div>
                     </li>
                     <li class="block-img">
                         <img src="./images/index/works/work2.jpg" alt="Візуальне зображення роботи" width="370" height="297" />
+                        <div class="overlay">
+                            <p class="overlay-text">Мобільні додатки</p>
+                        </div>
                     </li>
                     <li class="block-img">
                         <img src="./images/index/works/work3.jpg" alt="Візуальне зображення роботи" width="370" height="297" />
+                        <div class="overlay">
+                            <p class="overlay-text">Дизайнерські рішення</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -149,25 +161,25 @@
                             <p lang="en" class="team-text">Product Designer</p>
                             <ul class="socials list">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Іконка Instagram"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="https://twitter.com/?lang=uk" target="_blank" rel="noopener noreferrer"
                                         aria-label="Іконка Twitter"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="https://uk-ua.facebook.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Іконка Facebook"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Іконка Linkedin"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg></a>
@@ -182,25 +194,25 @@
                             <p lang="en" class="team-text">Frontend Developer</p>
                             <ul class="socials list">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Instagram icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Twitter icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Facebook icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Linkedin icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg></a>
@@ -215,25 +227,25 @@
                             <p lang="en" class="team-text">Marketing</p>
                             <ul class="socials list">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Instagram icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Twitter icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Facebook icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Linkedin icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg></a>
@@ -248,25 +260,25 @@
                             <p lang="en" class="team-text">UI Designer</p>
                             <ul class="socials list">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Instagram icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Twitter icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Facebook icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg></a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer"
                                         aria-label="Linkedin icon"><svg class="socials-icon" width="20" height="20">
                                             <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg></a>
@@ -284,7 +296,7 @@
                 <h2 class="client-title">Постійні клієнти</h2>
                 <ul class="list client-list">
                     <li class="client-border">
-                        <a class="client-link" href=""><svg class="client-icon" width="106" height="60">
+                        <a class="client-link" href="http://www.yasolicitors.co.uk/index.html"><svg class="client-icon" width="106" height="60">
                                 <use href="./images/icons/icons.svg#icon-Logo"></use>
                             </svg></a>
                     </li>
@@ -376,6 +388,18 @@
             </address>
         </div>
     </footer>
+<!--modal window-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal" data-modal-window>
+             <button class="modal-btn" data-modal-close>
+                <svg class="modal-icon" width="11" height="11">
+                    <use href="./images/icons/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
